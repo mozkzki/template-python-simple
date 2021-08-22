@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-template"
+version = "0.0.1"
+description = ""
+authors = ["mozkzki"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+flake8 = "3.7.9"
+mypy = "0.761"
+pytest = "6.2.0"
+black = "19.10b0"
+pytest-cov = "2.8.1"
+coverage = "5.0.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "app:main"
+lint = "flake8 --max-line-length=100 --ignore=E203,W503 ./main"
