@@ -1,6 +1,14 @@
 # template-python-simple
 
-Pythonツール開発用テンプレート。
+Python開発用テンプレート。
+
+| ツール種類 | ツール名 |
+|--|--|
+| 依存関係管理 | [Poetry](https://python-poetry.org/) |
+| テストフレームワーク | [pytest](https://docs.pytest.org/en/6.2.x/) |
+| リンター | [flake8](https://flake8.pycqa.org/en/latest/) |
+| フォーマッター | [black](https://github.com/psf/black) |
+| 型チェック | [mypy](https://mypy.readthedocs.io/en/stable/) |
 
 ## 実行方法
 
@@ -14,19 +22,21 @@ python ./main/my/app.py
 make start
 ```
 
+※ Poetryはタスクランナー機能がないのでmakeで代用
+
 ## 開発方法
 
-### Poetry導入
+### [Poetry](https://cocoatomo.github.io/poetry-ja/basic-usage/)導入
 
-開発環境に[`Poetry`](https://cocoatomo.github.io/poetry-ja/basic-usage/)が無ければ入れる。使い方まとめは[こちら](https://github.com/mozkzki/poetry-sample/blob/main/README.md)。
+開発環境に無ければ入れる。使い方まとめは[こちら](https://github.com/mozkzki/poetry-sample/blob/main/README.md)。
 
-Poetryの導入 (Mac, Linux)
+#### Mac / Linux
 
 ```bash
 > curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 ```
 
-Poetryの導入 (Windows) ※Powershell
+#### Windows (※Powershellで導入)
 
 ```Powershll
 > (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python
@@ -44,6 +54,14 @@ lintやunit testは仮想環境に入って実行する。出るのは`exit`。
 
 ```sh
 poetry shell
+```
+
+### とりあえず一通り動確したい時
+
+```sh
+make lint
+make ut
+make start
 ```
 
 ### Unit Test
