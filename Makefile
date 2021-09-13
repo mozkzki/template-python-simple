@@ -14,4 +14,4 @@ ut:
 	pytest -v --capture=no --cov-config .coveragerc --cov=main --cov-report=xml --cov-report=term-missing .
 
 start:
-	python ./main/my/app.py
+	python ./app.py

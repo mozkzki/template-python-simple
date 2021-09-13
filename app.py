@@ -1,6 +1,13 @@
+from main.my.module1 import Module1
+
+
 def main():
     user_name = input("user name: ")
     password = input("password: ")
+
+    m1 = Module1()
+    m1.method()
+
     result = login(user_name, password)
     print(result)
 

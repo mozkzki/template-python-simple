@@ -1,7 +1,7 @@
 import time
 
 import pytest
-from main.my.app import login
+from app import login
 
 
 class TestMain:
