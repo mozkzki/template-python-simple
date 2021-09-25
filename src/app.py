@@ -1,4 +1,4 @@
-from main.my.module1 import Module1
+from app_name.module1 import Module1
 
 
 def main():

@@ -1,4 +1,4 @@
-from main.my.sub.module2 import Module2
+from app_name.sub.module2 import Module2
 
 
 class Module1:
