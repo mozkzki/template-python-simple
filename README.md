@@ -91,7 +91,7 @@ pytest -m 'not slow'
 カバレッジレポートも作成
 
 ```sh
-pytest -v --capture=no --cov-config .coveragerc --cov=main --cov-report=xml --cov-report=term-missing .
+pytest -v --capture=no --cov-config .coveragerc --cov=src --cov-report=xml --cov-report=term-missing .
 # or
 make ut
 ```
@@ -103,7 +103,7 @@ VSCodeでコードカバレッジを見るには、Coverage Gutters (プラグ�
 ### Lint
 
 ```sh
-flake8 --max-line-length=100 --ignore=E203,W503 ./main
+flake8 --max-line-length=100 --ignore=E203,W503 ./src ./tests
 # or
 make lint
 ```
