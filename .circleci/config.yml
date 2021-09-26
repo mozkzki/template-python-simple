@@ -220,7 +220,7 @@ jobs:
       - run:
           name: Lint
           command: |
-            source $(find . -name ${CIRCLE_PROJECT_REPONAME}*)/bin/activate
+            source $(find . -name app-name*)/bin/activate
             make lint
       - notify_fail_slack
 
@@ -234,7 +234,7 @@ jobs:
       - run:
           name: Test
           command: |
-            source $(find . -name ${CIRCLE_PROJECT_REPONAME}*)/bin/activate
+            source $(find . -name app-name*)/bin/activate
             make ut
             bash <(curl -s https://codecov.io/bash)
       - store_artifacts:

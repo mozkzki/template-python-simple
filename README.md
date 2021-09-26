@@ -112,6 +112,20 @@ flake8 --max-line-length=100 --ignore=E203,W503 ./src ./tests
 make lint
 ```
 
+### Create API Document (Sphinx)
+
+```sh
+make doc
+```
+
+### Update dependency modules
+
+dependabot (GitHub公式) がプルリクを挙げてくるので確認してマージする。
+
+- 最低でもCircleCIが通っているかは確認
+- CircleCIでは、最新の依存モジュールでtestするため`poetry update`してからtestしている
+- dependabotは`pyproject.toml`と`poetry.lock`を更新してくれる
+
 ## 参考
 
 - [基本的な使い方 - Poetry documentation (ver. 1.1.6 日本語訳)](https://cocoatomo.github.io/poetry-ja/basic-usage/)
