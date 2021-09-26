@@ -1,5 +1,9 @@
 # template-python-simple
 
+[![CircleCI](https://circleci.com/gh/mozkzki/template-python-simple/tree/master.svg?style=svg)](https://circleci.com/gh/mozkzki/template-python-simple/tree/master)
+[![codecov](https://codecov.io/gh/mozkzki/template-python-simple/branch/master/graph/badge.svg?token=BRB5vsPkO2)](https://codecov.io/gh/mozkzki/template-python-simple)
+[![Maintainability](https://api.codeclimate.com/v1/badges/df50bbce59225073a577/maintainability)](https://codeclimate.com/github/mozkzki/template-python-simple/maintainability)
+
 Python開発用テンプレート。
 
 | ツール種類 | ツール名 |
