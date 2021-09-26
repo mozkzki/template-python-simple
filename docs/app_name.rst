@@ -7,6 +7,7 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
+   app_name.cls_sample
    app_name.sub
 
 Submodules

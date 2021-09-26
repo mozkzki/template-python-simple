@@ -10,5 +10,5 @@ class TestModule2:
     def test_method(self, module2: Module2, capfd):
         module2.method()
         out, err = capfd.readouterr()
-        assert out == "module2's method called.\n"
+        assert "module2's method called.\n" in out
         assert err == ""
