@@ -6,9 +6,9 @@ authors = ["mozkzki <mozkzki@gmail.com>"]
 maintainers = ["mozkzki <mozkzki@gmail.com>"]
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/mozkzki/template-python-simple]"
-repository = "https://github.com/mozkzki/template-python-simple]"
-documentation = "https://github.com/mozkzki/template-python-simple]/wiki"
+homepage = "https://github.com/mozkzki/template-python]"
+repository = "https://github.com/mozkzki/template-python]"
+documentation = "https://github.com/mozkzki/template-python]/wiki"
 keywords = ['Python', 'template']
 classifiers=[
     'Development Status :: 3 - Alpha',

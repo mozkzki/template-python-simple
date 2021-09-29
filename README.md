@@ -1,8 +1,8 @@
-# template-python-simple
+# template-python
 
-[![CircleCI](https://circleci.com/gh/mozkzki/template-python-simple/tree/main.svg?style=svg)](https://circleci.com/gh/mozkzki/template-python-simple/tree/main)
-[![codecov](https://codecov.io/gh/mozkzki/template-python-simple/branch/main/graph/badge.svg?token=BRB5vsPkO2)](https://codecov.io/gh/mozkzki/template-python-simple)
-[![Maintainability](https://api.codeclimate.com/v1/badges/df50bbce59225073a577/maintainability)](https://codeclimate.com/github/mozkzki/template-python-simple/maintainability)
+[![CircleCI](https://circleci.com/gh/mozkzki/template-python/tree/main.svg?style=svg)](https://circleci.com/gh/mozkzki/template-python/tree/main)
+[![codecov](https://codecov.io/gh/mozkzki/template-python/branch/main/graph/badge.svg?token=BRB5vsPkO2)](https://codecov.io/gh/mozkzki/template-python)
+[![Maintainability](https://api.codeclimate.com/v1/badges/df50bbce59225073a577/maintainability)](https://codeclimate.com/github/mozkzki/template-python/maintainability)
 
 Python開発用テンプレート。
 
